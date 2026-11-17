@@ -1,5 +1,7 @@
 # devtool-commit-message-linter
 
+[![CI](https://github.com/AhmadElAmeer/devtool-commit-message-linter/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmadElAmeer/devtool-commit-message-linter/actions/workflows/ci.yml)
+
 `cmlint` checks commit messages against the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format. It runs as a git `commit-msg` hook, as a CLI, or over existing history. Errors point at the exact line and column, like a compiler's. It's pure Python with no dependencies.
 
 ```
